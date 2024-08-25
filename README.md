@@ -13,11 +13,10 @@ Standard AT firmware builds by Espressif don't support Ethernet.
 
 ESP32 AT firmware supports Ethernet commands but they have to be [enabled](https://docs.espressif.com/projects/esp-at/en/latest/esp32/Compile_and_Develop/How_to_enable_ESP_AT_Ethernet.html) in build configuration and build from sources.
 
-The ESP32 AT firmware source only supports Ethernet PHY modules: LAN8720, IP101, DP83848 and RTL8201. A modified AT firmware supporting W5500 will be available soon.
+The ESP32 AT firmware source only supports Ethernet PHY modules: LAN8720, IP101, DP83848 and RTL8201. [Here](https://github.com/Networking-for-Arduino/EthernetEspAT/wiki/ESP32-firmware) you can download some ESP32 AT firmware binaries with Ethernet support. A modified AT firmware supporting W5500 will be available soon there.
 
-ESP8266 AT firmware by Espressif doesn't support Ethernet. Jiri Bilek's [ESP_ATMod firmware](https://github.com/JiriBilek/ESP_ATMod#description) for ESP8266 will support Ethernet with Ethernet chips supported by the ESP8266 Arduino platform.
-
-* [ESP32 AT firmware binaries with Ethernet support](https://github.com/Networking-for-Arduino/EthernetEspAT/wiki/ESP32-firmware)
-* [esp8266 ESP_ATMod sketch with Ethernet support](https://github.com/JAndrassy/ESP_ATMod/tree/ethernet_support)
+ESP8266 AT firmware by Espressif doesn't support Ethernet. Jiri Bilek's [ESP_ATMod firmware](https://github.com/JiriBilek/ESP_ATMod#description) for ESP8266 supports Ethernet with Ethernet chips supported by the ESP8266 Arduino platform.
 
 For installing and testing the AT firmware see the WiFiEspAT [documentation](https://github.com/JAndrassy/WiFiEspAT?tab=readme-ov-file#getting-started).
+
+![M0-D1mini-Wiz850io](https://raw.githubusercontent.com/wiki/Networking-for-Arduino/EthernetEspAT/img/M0-D1mini-Wiz850io.jpg)
